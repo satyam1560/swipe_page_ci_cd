@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:swipe_page/pageview-impl.dart';
+import 'package:swipe_page/pageview_impl.dart';
 
 void main() {
   runApp(const MyApp());

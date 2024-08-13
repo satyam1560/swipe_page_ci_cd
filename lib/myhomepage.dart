@@ -19,13 +19,13 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Swipe(
         onSwipeUp: () {
-          print('swipe up triggered');
+          debugPrint('swipe up triggered');
           setState(() {
             _currentColor = Colors.black;
           });
         },
         onSwipeDown: () {
-          print('swipe down triggered');
+          debugPrint('swipe down triggered');
           setState(() {
             _currentColor = Colors.blue;
           });
